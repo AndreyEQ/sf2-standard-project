@@ -18,11 +18,16 @@
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-	"doctrine/migrations": "1.0.*@dev",
-        "doctrine/doctrine-migrations-bundle": "1.0.*",
-	"sonata-project/doctrine-orm-admin-bundle": "^2.3",
-        "sonata-project/user-bundle": "^2.2",
-        "stof/doctrine-extensions-bundle": "^1.1"
+	"doctrine/doctrine-migrations-bundle": "dev-master",	
+	"doctrine/migrations": "dev-master",
+	"sonata-project/doctrine-orm-admin-bundle": "dev-master",
+	"sonata-project/easy-extends-bundle": "dev-master",
+	"friendsofsymfony/user-bundle": "~1.3",
+	"sonata-project/core-bundle": "dev-master",
+	"sonata-project/admin-bundle": "dev-master",
+	"sonata-project/user-bundle": "dev-master",
+	"sonata-project/datagrid-bundle": "dev-master",
+	"stof/doctrine-extensions-bundle": "~1.1@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
